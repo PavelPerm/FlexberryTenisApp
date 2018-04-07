@@ -1,0 +1,13 @@
+﻿{
+  "propertyLookup": [],
+  "caption": "Player",
+  "name": "IISTenisAppbpa_PlayerE",
+  "className": "bpa_PlayerE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tenis-app-player",
+      "modelProjection": "bpa_PlayerE"
+    }
+  ]
+}

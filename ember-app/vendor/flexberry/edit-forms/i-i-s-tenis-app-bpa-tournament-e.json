@@ -1,0 +1,30 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "player",
+      "displayAttributeName": "lastName",
+      "required": true,
+      "relationName": "Challenger.Player",
+      "projection": "bpa_PlayerL",
+      "detailModelName": "i-i-s-tenis-app-challenger"
+    },
+    {
+      "master": "match",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "Toss.Match",
+      "projection": "bpa_MatchL",
+      "detailModelName": "i-i-s-tenis-app-toss"
+    }
+  ],
+  "caption": "Tournament",
+  "name": "IISTenisAppbpa_TournamentE",
+  "className": "bpa_TournamentE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tenis-app-tournament",
+      "modelProjection": "bpa_TournamentE"
+    }
+  ]
+}
